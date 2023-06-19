@@ -24,9 +24,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+title: 잔디로그
 email: your-email@domain.com
-author: GitHub User
+author: Team Jandi
 
 # Copyright setting
 # You can use any html code, currently below placeholders are available:
@@ -157,7 +157,7 @@ yat:
 defaults:
   home:
     heading: "TEAM-JANDI"
-    subheading: "나중에 노션 이전 할  바꿉시당"
+    subheading: "소소하게 잔디 심는 사람들"
     banner: "Your image url"
 
 # Banner default settings
