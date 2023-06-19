@@ -46,7 +46,7 @@ EMPTY는 사실상 Object Empty = new Optional<>(null); 로 선언되어도 흐�
 그러나 Optional<?> 로 선언하여 EMPTY가 항상 Optionl 타입의 객체만을 갖는다는 것을 명시해주면 이후에 코드 파악이 더 쉬워진다.
 <br> <br>
 
-# List<T> 와 List<?> 의 차이점
+### List<T> 와 List<?> 의 차이점
 
 List<T> : T 라는 타입의 리스트라는 것을 나타냄
 
@@ -69,7 +69,8 @@ static void fromArrayToCollection(Object[] a, Collection<?> c) {
 Collection<Object>를 사용하면 호출시에 형변환이 일어날 수 있으므로 Collection<T>가 더 적합하다고 할 수 있다.
 
 <br> <br>
-# 그럼 와일드 카드는 대체 어느 경우에 사용하는가?
+
+### 그럼 와일드 카드는 대체 어느 경우에 사용하는가?
 
 아래와 같은 코드가 있다.
 
@@ -121,7 +122,8 @@ class Collections {
 
 
 <br>
-그 외 12챕터 관련 참고할만한 코드 예제
+
+### 그 외 12챕터 관련 참고할만한 코드 예제
 
 제네릭 람다 예제
 
