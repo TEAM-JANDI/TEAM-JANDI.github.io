@@ -17,7 +17,7 @@ tags: [java, generics, wildcard, 자바의정석]
 위 궁금증에 의해 정리를 해보았다.
 <br>
 
-# 제네릭과 와일드 카드의 차이점
+## 제네릭과 와일드 카드의 차이점
 
 제네릭은 타입 매개변수를 사용하여 타입 안정성을 제공하는 반면, 와일드카드는 다양한 타입을 수용하거나 제한하기 위해 사용된다. 제네릭은 타입을 파라미터화하는 방식이고, 와일드카드는 타입을 불특정하게 나타내는 방식이다.
 
@@ -46,7 +46,7 @@ EMPTY는 사실상 Object Empty = new Optional<>(null); 로 선언되어도 흐�
 그러나 Optional<?> 로 선언하여 EMPTY가 항상 Optionl 타입의 객체만을 갖는다는 것을 명시해주면 이후에 코드 파악이 더 쉬워진다.
 <br> <br>
 
-## List<T> 와 List<?> 의 차이점
+# List<T> 와 List<?> 의 차이점
 
 List<T> : T 라는 타입의 리스트라는 것을 나타냄
 
@@ -69,7 +69,7 @@ static void fromArrayToCollection(Object[] a, Collection<?> c) {
 Collection<Object>를 사용하면 호출시에 형변환이 일어날 수 있으므로 Collection<T>가 더 적합하다고 할 수 있다.
 
 <br> <br>
-## 그럼 와일드 카드는 대체 어느 경우에 사용하는가?
+# 그럼 와일드 카드는 대체 어느 경우에 사용하는가?
 
 아래와 같은 코드가 있다.
 
