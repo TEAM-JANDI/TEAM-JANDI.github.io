@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[12회차] 제네릭과 변성(한정적 와일드카드)
+title: "[12챕터] 제네릭과 변성(한정적 와일드카드)"
 subtitle: 자바의 정석 스터디 18회차
 categories: Java
 tags: [java, generics, 공변, 반공변, 자바의정석]
