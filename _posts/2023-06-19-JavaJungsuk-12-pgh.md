@@ -26,9 +26,9 @@ enum Direction {
 ```java
 // Game.java
 
-// name: enum의 이름을 문자열로 반환
+// name: enum의 이름을 문자열로 반환.
 // ordinal: enum이 정의된 순서를 반환 (0부터 시작.)
-// valueOf(String): 해당 String 값에 해당하는 상수를 반환
+// valueOf(String): 해당 String 값에 해당하는 상수를 반환.
 
 public class game() {
     int x = 0;
