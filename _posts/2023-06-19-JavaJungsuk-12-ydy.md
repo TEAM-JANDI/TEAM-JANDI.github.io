@@ -208,3 +208,8 @@ MyArrayList 클래스에 있던 주석이 이를 의미한 것이다.
       return (List<Number>) out;
   }
 ```
+
+---
+출처  
+자바 제네릭의 공변성 & 와일드카드 완벽 이해 : https://inpa.tistory.com/entry/JAVA-%E2%98%95-%EC%A0%9C%EB%84%A4%EB%A6%AD-%EC%99%80%EC%9D%BC%EB%93%9C-%EC%B9%B4%EB%93%9C-extends-super-T-%EC%99%84%EB%B2%BD-%EC%9D%B4%ED%95%B4  
+프로그래밍 초식 - 지네릭 변성(java) (최범균) : https://www.youtube.com/watch?v=PtM44sO-A6g 
