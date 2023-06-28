@@ -190,6 +190,7 @@ public void Contravariant(List<? super T> out) {
 - Consumers : Super  
 MyArrayList 클래스에 있던 주석이 이를 의미한 것이다.  
 행위의 주체를 제네릭타입 파라미터로 생각하고 이해하면 된다.
+
 ```java
 //Producers : Extend
 //파라미터가 내부 요소를 '생산'하는 데 쓰인다.
