@@ -5,6 +5,8 @@ subtitle: 자바의 정석 스터디 20회차
 categories: Java
 tags: [Java, Thread, 자바의정석]
 ---
+  
+![threadModel](/assets/images/posts/javajungsuk/threadModel.png)
 
 ## 쓰레드 구현 모델
 쓰레드 구현 모델은 4가지이다.
