@@ -3,7 +3,7 @@ layout: post
 title: "[13챕터] 메모리 가시성, 메모리 장벽"
 subtitle: 자바의 정석 스터디 21회차
 categories: Java
-tags: [Java, Thread, 자바의정석]
+tags: [Java, Thread, 자바의정석, 메모리 가시성, 메모리 장벽]
 ---
 
 
