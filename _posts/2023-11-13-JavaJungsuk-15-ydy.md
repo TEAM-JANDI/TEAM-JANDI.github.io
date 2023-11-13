@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[15챕터] 입출력 I/O"
+title: "[15챕터] 직렬화"
 subtitle: 자바의 정석 스터디 24회차
 categories: Java
 tags: [java, 자바의정석, 입출력 I/O, 직렬화]
